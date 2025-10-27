@@ -1,7 +1,7 @@
 """
 To verify if CuPy is installed correctly and functioning, you can perform a series of checks and run a simple test script.
 
-reference: [python how to check cupy is installed correctly and working](docs/python-check-cupy.md)
+reference: [python how to check cupy is installed correctly and working](https://github.com/jpjsm/understanding-python-cuda/blob/main/docs/python-check-cupy.md)
 
 """
 
