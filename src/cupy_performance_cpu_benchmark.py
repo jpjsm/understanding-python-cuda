@@ -1,11 +1,12 @@
 """
-This module tests CuPy correct installation.
+This module runs a benchmark between CPU and GPU.
 
-Code extracted from here: https://documen.tician.de/pycuda/tutorial.html
+Code extracted from here: https://www.cherryservers.com/blog/introduction-to-gpu-programming-with-cuda-and-python
 
 Date: 2025-10-27
 Version: 0.0.1
 """
+
 from datetime import datetime, timedelta
 from typing import Tuple
 
