@@ -20,9 +20,7 @@ A place to begin with CUDA using Python
 
 ### Conda-forge environment
 
-- `conda create --name understanding-python-cuda python=3.12 ipykernel`
+- `conda env create -f environment.yml`
 - `conda activate understanding-python-cuda`
-- `conda install conda-forge::pycuda`
-    >**Note**: Add the Visual Studio C++ compiler to the PATH
-    (`nvcc fatal : Cannot find compiler 'cl.exe' in PATH`)
-- `conda install conda-forge::cupy`
+- `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121`
+- [pending review] `pip install --extra-index-url https://pypi.nvidia.com cudf-cu12`
