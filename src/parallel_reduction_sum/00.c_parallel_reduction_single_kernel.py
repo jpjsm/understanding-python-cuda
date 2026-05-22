@@ -43,7 +43,7 @@ def reduce_single_kernel(input_data, result):
 # -------------------------
 N = 1024 * 1024
 threads_per_block = 1024
-blocks = 128  # more than enough; grid-stride loop will cover N
+blocks = 128  # more than enough; grid-stride loop will cover N | see https://copilot.microsoft.com/shares/oueAgWf39wWv2UGeDNR3p
 
 h_input = np.arange(N, dtype=np.int64)
 
