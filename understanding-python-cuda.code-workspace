@@ -6,6 +6,8 @@
 	],
 	"settings": {
 		"python-envs.defaultEnvManager": "ms-python.python:conda",
-		"python-envs.defaultPackageManager": "ms-python.python:conda"
+		"python-envs.defaultPackageManager": "ms-python.python:conda",
+		"python.defaultInterpreterPath": "C:\\Users\\juanp\\miniforge3\\envs\\understanding-python-cuda\\python.exe",
+		"python.terminal.activateEnvironment": true,
 	}
 }
